@@ -1,0 +1,12 @@
+namespace EventBooking.Application.Exceptions;
+
+public abstract class AppException(string message, int statusCode) : Exception(message)
+{
+    public int StatusCode { get; } = statusCode;
+}
+
+public sealed class NotFoundException(string message) : AppException(message, 404);
+
+public sealed class ConflictException(string message) : AppException(message, 409);
+
+public sealed class BadRequestException(string message) : AppException(message, 400);

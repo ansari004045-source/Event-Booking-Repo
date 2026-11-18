@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{374EE91E-8C4B-42E6-91F5-D420600D49D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBooking.Domain", "src\EventBooking.Domain\EventBooking.Domain.csproj", "{56B37F7B-A863-492C-A0D9-247E396959FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBooking.Helpers", "src\EventBooking.Helpers\EventBooking.Helpers.csproj", "{AC8BB1F0-4C23-46FB-8B5A-A293E883B3A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBooking.Application", "src\EventBooking.Application\EventBooking.Application.csproj", "{3B9C04E5-333C-411D-B07B-70E2D713DB5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBooking.Infrastructure", "src\EventBooking.Infrastructure\EventBooking.Infrastructure.csproj", "{6F72C7B1-ACAD-479F-B6F9-774B34B54B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBooking.Api", "src\EventBooking.Api\EventBooking.Api.csproj", "{48A00155-52D0-42DA-BC04-9FF0F4013FCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{086A1E55-0E61-4508-A89F-9553FE79D046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBooking.Tests", "tests\EventBooking.Tests\EventBooking.Tests.csproj", "{130028B5-0AD5-428B-839F-10FEE4B29FBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56B37F7B-A863-492C-A0D9-247E396959FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B37F7B-A863-492C-A0D9-247E396959FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B37F7B-A863-492C-A0D9-247E396959FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B37F7B-A863-492C-A0D9-247E396959FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8BB1F0-4C23-46FB-8B5A-A293E883B3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8BB1F0-4C23-46FB-8B5A-A293E883B3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8BB1F0-4C23-46FB-8B5A-A293E883B3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8BB1F0-4C23-46FB-8B5A-A293E883B3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9C04E5-333C-411D-B07B-70E2D713DB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9C04E5-333C-411D-B07B-70E2D713DB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9C04E5-333C-411D-B07B-70E2D713DB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9C04E5-333C-411D-B07B-70E2D713DB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F72C7B1-ACAD-479F-B6F9-774B34B54B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F72C7B1-ACAD-479F-B6F9-774B34B54B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F72C7B1-ACAD-479F-B6F9-774B34B54B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F72C7B1-ACAD-479F-B6F9-774B34B54B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A00155-52D0-42DA-BC04-9FF0F4013FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A00155-52D0-42DA-BC04-9FF0F4013FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A00155-52D0-42DA-BC04-9FF0F4013FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A00155-52D0-42DA-BC04-9FF0F4013FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{130028B5-0AD5-428B-839F-10FEE4B29FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130028B5-0AD5-428B-839F-10FEE4B29FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130028B5-0AD5-428B-839F-10FEE4B29FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130028B5-0AD5-428B-839F-10FEE4B29FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56B37F7B-A863-492C-A0D9-247E396959FE} = {374EE91E-8C4B-42E6-91F5-D420600D49D3}
+		{AC8BB1F0-4C23-46FB-8B5A-A293E883B3A3} = {374EE91E-8C4B-42E6-91F5-D420600D49D3}
+		{3B9C04E5-333C-411D-B07B-70E2D713DB5A} = {374EE91E-8C4B-42E6-91F5-D420600D49D3}
+		{6F72C7B1-ACAD-479F-B6F9-774B34B54B4F} = {374EE91E-8C4B-42E6-91F5-D420600D49D3}
+		{48A00155-52D0-42DA-BC04-9FF0F4013FCA} = {374EE91E-8C4B-42E6-91F5-D420600D49D3}
+		{130028B5-0AD5-428B-839F-10FEE4B29FBA} = {086A1E55-0E61-4508-A89F-9553FE79D046}
+	EndGlobalSection
+EndGlobal
